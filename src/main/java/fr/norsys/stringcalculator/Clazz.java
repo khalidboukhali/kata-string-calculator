@@ -17,7 +17,6 @@ public class Clazz {
                 word = parteTwo;
             }
         }
-        if(delimiter.contains("*")) delimiter = delimiter.substring(1,delimiter.length()-1);
         String[] nums = word.split(delimiter);
         int sum = 0;
         String negatives = "";
